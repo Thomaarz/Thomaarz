@@ -16,7 +16,7 @@ public class BombarderGame extends AMiniGame {
     @Override
     public ArrayList<PixelMap> getAllMaps() {
         return new ArrayList<>(Arrays.asList(
-                new PixelMap("BOMBARDER1", 0.5, 152, 0.5, 0, 0)
+                new PixelMap("BOMBARDEMENT1", 0.5, 152, 0.5, 0, 0)
         ));
     }
 
