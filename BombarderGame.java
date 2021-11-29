@@ -4,6 +4,8 @@ import java.util.*;
 public class BombarderGame extends AMiniGame {
 
     private int remainingTime = 90;
+    
+    private static final int LIFES = 3;
 
     public BombarderGame() {
         super("Dé à Coudre",
@@ -29,6 +31,12 @@ public class BombarderGame extends AMiniGame {
     @Override
     public void onGameStart() {
         super.onGameStart();
+        
+        this.getMinigame().getInstance().getPlayers().forEach(player -> {
+            player.setHealthScale(LIFES * 2);
+            player.setMaxHealth(LIFES * 2);
+            player.setHealth(LIFES * 2);
+        });
 
         this.registerTask(new BukkitRunnable() {
             @Override
