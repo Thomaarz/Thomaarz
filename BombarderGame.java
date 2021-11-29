@@ -3,7 +3,7 @@ import java.util.*;
 
 public class BombarderGame extends AMiniGame {
 
-    private int remainingTime = 90;
+    private int remainingTime = 60 * 3;
     
     private static final int LIFES = 3;
 
