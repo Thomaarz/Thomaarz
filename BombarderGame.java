@@ -43,6 +43,16 @@ public class BombarderGame extends AMiniGame {
             }
         }.runTaskTimer(PixelPerfectGame.getInstance(), 20, 20));
     }
+    
+    @Override
+    public ArrayList<String> updateScoreboard(Player player) {
+        ArrayList<String> lines = new ArrayList<>();
+
+        lines.add("§7╸ §rTemps: §a" + TimerUtils.getTimeCooldown(this.remainingTime));
+        lines.add(null);
+
+        return lines;
+    }
 
     @EventHandler
     public void onEntityDamage(EntityDamageEvent event) {
@@ -83,17 +93,6 @@ public class BombarderGame extends AMiniGame {
         Player player = (Player) entity;
         removeLife(player);
 
-    }
-
-
-    @Override
-    public ArrayList<String> updateScoreboard(Player player) {
-        ArrayList<String> lines = new ArrayList<>();
-
-        lines.add("§7╸ §rTemps: §a" + TimerUtils.getTimeCooldown(this.remainingTime));
-        lines.add(null);
-
-        return lines;
     }
 
     public void removeLife(Player player) {
