@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Thomaarz
+- 👋 Hi, I’m @Thomaarz, Java Developer for @Rinaorc & @Lacraftia-Minecraft
 - 🌱 I’m currently learning Java, PHP, HTML, CSS, C, C++
 
 <!---
