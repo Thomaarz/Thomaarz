@@ -8,3 +8,4 @@ You can click the Preview link to take a look at your changes.
 
 
 ![](https://komarev.com/ghpvc/?username=Thomaarz)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Thomaarz&theme=dark)](https://git.io/streak-stats)
