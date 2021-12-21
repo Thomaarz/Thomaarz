@@ -1,14 +1,5 @@
-<h1 style="text-align: center;">Hey, je suis Thomaarz !</h1>
-
-Je programme depuis plus de 5 ans dans différents languages:
-
--Java
-
--Javascript
-
--C/C++
-
--Html/Css/PHP
+<h1 style="text-align: center;">Hey, I'm Thomaarz !</h1>
+🌱 I’m currently learning Java, PHP, HTML, CSS, C, C++.
 
 ![](https://komarev.com/ghpvc/?username=Thomaarz)
 
