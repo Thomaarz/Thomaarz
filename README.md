@@ -1,5 +1,5 @@
 <h1 style="text-align: center;">Hey, I'm Thomaarz !</h1>
-🌱 I’m currently learning Java, PHP, HTML, CSS, C, C++.
+🌱 I’m currently learning Java, PHP, <span style="color: red">HTML</span>, CSS, C, C++.
 
 ![](https://komarev.com/ghpvc/?username=Thomaarz)
 
